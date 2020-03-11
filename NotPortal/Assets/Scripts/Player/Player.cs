@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// Responsible for world interactions, such as grabbing objects
+// Responsible for world interactions, such as grabbing objects or interacting with items
 public class Player : MonoBehaviour
 {
     [SerializeField] private Transform camTransform = default;

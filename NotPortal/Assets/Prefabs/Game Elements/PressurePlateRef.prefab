@@ -28,6 +28,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2765114735826359807}
+  - {fileID: 491180451766681806}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43,7 +44,7 @@ GameObject:
   - component: {fileID: 2765114735826359804}
   - component: {fileID: 2765114735826359806}
   - component: {fileID: 3456341073327454308}
-  - component: {fileID: 6486029439586835660}
+  - component: {fileID: 7211207300913820226}
   m_Layer: 0
   m_Name: PressurePlate
   m_TagString: Untagged
@@ -93,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 3456341073327454308}
   riddle: {fileID: 0}
-  sound: {fileID: 6486029439586835660}
+  sound: {fileID: 7211207300913820226}
   id: 0
 --- !u!95 &3456341073327454308
 Animator:
@@ -114,7 +115,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!82 &6486029439586835660
+--- !u!82 &7211207300913820226
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,7 +126,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -289,3 +290,83 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1001 &4539587086382617301
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1323287316977042823}
+    m_Modifications:
+    - target: {fileID: -3244631840571714741, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 7211207300913820226}
+    - target: {fileID: 1041885928847892488, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_Name
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f4301fe9d885a4408596ff27c260f72, type: 3}
+--- !u!4 &491180451766681806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4048415435008381467, guid: 6f4301fe9d885a4408596ff27c260f72,
+    type: 3}
+  m_PrefabInstance: {fileID: 4539587086382617301}
+  m_PrefabAsset: {fileID: 0}
