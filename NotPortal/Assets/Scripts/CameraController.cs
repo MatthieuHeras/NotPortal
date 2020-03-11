@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private Transform camTransform = default;
     [SerializeField] private Transform targetTransform = default;
     [SerializeField] private float mouseSensitivity = 50f;
-
-    private float xCurrentRotation = 0f;
-    private Vector2 targetRotation = Vector2.zero;
 
     void Update()
     {
